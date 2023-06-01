@@ -16,7 +16,6 @@
             margin: 0;
             padding: 0;
             height: 100%;
-           
         }
 
         #banner {
@@ -27,8 +26,15 @@
             height: 100%;
             object-fit: cover;
         }
-        .card:hover{
+
+        .card:hover {
             transform: scale(1.1);
+        }
+
+        .results-heading {
+            color: white;
+            position: relative;
+            z-index: 1;
         }
     </style>
 </head>
@@ -70,52 +76,67 @@
             </div>
         </nav>
     </div>
-<div class="container-fluid">
-    <h2 class="text-center mt-4 mb-4 text-white">Results</h2>
-    
-    <div class="row">
-        <div class="col-sm-3 m-4">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title"><img style="width: 25%;" src="assests/Argentina.webp">Argentina  4 - 5 portugal <img style="width: 15%;" src="assests/portugal_flag.png"></h5></div>
-          </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-sm-3 m-4">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title"><img style="width: 20%;" src="assests/india flag.png">India  4 - 5 Netherlands <img style="width: 15%;" src="assests/Netherland_flag.png"></h5></div>
-          </div>
-        </div>
-    </div><div class="row">
-        <div class="col-sm-3 m-4">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title"><img style="width: 25%;" src="assests/England_Flag.png">England  0 - 1 France <img style="width: 15%;" src="assests/France_flag.png"></h5></div>
-          </div>
-        </div>
-    </div>
+    <div class="container-fluid">
+        <h2 class="mt-4 mb-4 ms-1 results-heading">Results</h2>
 
-    <div class="row">
-        <div class="col-sm-3 m-4">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title"><img style="width: 25%;" src="assests/Argentina.webp">Argentina  2 - 1 portugal <img style="width: 15%;" src="assests/portugal_flag.png"></h5></div>
-          </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><img style="width: 18%;" src="assests/Argentina.webp">Argentina 4 - 5
+                            Portugal <img style="width: 15%;" src="assests/portugal_flag.png"></h5>
+                    </div>
+                    <p class="text-center">full time</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><img style="width: 18%;" src="assests/india flag.png">India 4 - 5
+                            Netherlands <img style="width: 18%;" src="assests/Netherland_flag.png"></h5>
+                    </div>
+                    <p class="text-center">full time</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><img style="width: 22%;" src="assests/England_Flag.png">England 0 - 1
+                            France <img style="width: 15%;" src="assests/France_flag.png"></h5>
+                    </div>
+                    <p class="text-center">full time</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><img style="width: 22%;" src="assests/Argentina.webp">Argentina 2 - 1
+                            Portugal <img style="width: 15%;" src="assests/portugal_flag.png"></h5>
+                    </div>
+                    <p class="text-center">full time</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><img style="width: 22%;" src="assests/Argentina.webp">Argentina 4 - 0
+                            India <img style="width: 15%;" src="assests/india flag.png"></h5>
+                    </div>
+                    <p class="text-center">full time</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><img style="width: 11%;" src="assests/Italy_flag.png">Italy 3 - 1
+                            Portugal <img style="width: 23%;" src="assests/portugal_flag.png"></h5>
+                    </div>
+                    <p class="text-center">full time</p>
+                </div>
+            </div>
         </div>
+        
     </div>
-
-    <div class="row">
-        <div class="col-sm-3 m-4">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title"><img style="width: 25%;" src="assests/Argentina.webp">Argentina  4 - 0  India <img style="width: 15%;" src="assests/india flag.png"></h5></div>
-          </div>
-        </div>
-    </div>
-
-</div>
 </body>
 
 </html>
